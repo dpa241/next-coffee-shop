@@ -4,6 +4,8 @@ import { useEffect } from 'react'
 import About from '@/components/About'
 import Explore from '@/components/Explore'
 import Hero from '@/components/Hero'
+import Menu from '@/components/Menu'
+import Testimonials from '@/components/Testimonials'
 
 const Home = () => {
   // add locomotive scroll
@@ -19,6 +21,8 @@ const Home = () => {
       <Hero/>
       <Explore/>
       <About/>
+      <Menu/>
+      <Testimonials/>
       <div className='h-[4000px]'></div>
     </div>
   )
